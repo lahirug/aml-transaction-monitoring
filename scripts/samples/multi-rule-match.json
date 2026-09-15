@@ -1,0 +1,10 @@
+{
+  "transactionId": "TX-MULTI-001",
+  "customerId": "CUST-004",
+  "amount": 15000,
+  "currency": "EUR",
+  "originCountry": "SE",
+  "destinationCountry": "SY",
+  "channel": "ONLINE",
+  "timestamp": "2024-01-15T13:00:00Z"
+}

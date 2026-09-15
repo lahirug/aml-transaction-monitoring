@@ -1,0 +1,10 @@
+{
+  "transactionId": "TX-STRUCT-001",
+  "customerId": "CUST-005",
+  "amount": 9500,
+  "currency": "EUR",
+  "originCountry": "SE",
+  "destinationCountry": "SE",
+  "channel": "ATM",
+  "timestamp": "2024-01-15T14:00:00Z"
+}

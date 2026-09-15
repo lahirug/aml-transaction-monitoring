@@ -1,0 +1,10 @@
+{
+  "transactionId": "TX-HIGH-001",
+  "customerId": "CUST-002",
+  "amount": 15000,
+  "currency": "EUR",
+  "originCountry": "SE",
+  "destinationCountry": "DE",
+  "channel": "ONLINE",
+  "timestamp": "2024-01-15T11:00:00Z"
+}

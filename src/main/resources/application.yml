@@ -1,0 +1,37 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: aml-screening
+
+aml:
+  screening:
+    supported-currency: EUR
+    rules:
+      high-value-transaction:
+        enabled: true
+        threshold: 10000
+      high-risk-country:
+        enabled: true
+        countries:
+          - KP
+          - SD
+          - SY
+          - AF
+          - MM
+          - YE
+          - LY
+      suspicious-online-transaction:
+        enabled: true
+        threshold: 5000
+      structuring-detection:
+        enabled: true
+        reporting-threshold: 10000
+        lower-bound: 9000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

@@ -1,0 +1,10 @@
+{
+  "transactionId": "TX-CLEAR-001",
+  "customerId": "CUST-001",
+  "amount": 500,
+  "currency": "EUR",
+  "originCountry": "SE",
+  "destinationCountry": "SE",
+  "channel": "BRANCH",
+  "timestamp": "2024-01-15T10:30:00Z"
+}

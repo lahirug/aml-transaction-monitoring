@@ -1,0 +1,10 @@
+{
+  "transactionId": "TX-RISK-001",
+  "customerId": "CUST-003",
+  "amount": 2000,
+  "currency": "EUR",
+  "originCountry": "SE",
+  "destinationCountry": "KP",
+  "channel": "ONLINE",
+  "timestamp": "2024-01-15T12:00:00Z"
+}
