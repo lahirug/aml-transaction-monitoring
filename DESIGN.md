@@ -156,7 +156,7 @@ Content-Type: application/json
     "HIGH_VALUE_TRANSACTION",
     "SUSPICIOUS_ONLINE_TRANSACTION"
   ],
-  "timestamp": "2026-09-15T14:30:01Z"
+  "screenedAt": "2026-09-15T14:30:01Z"
 }
 ```
 
@@ -427,7 +427,7 @@ Every screening decision produces a structured log event:
   "matchedRules": ["HIGH_VALUE_TRANSACTION", "SUSPICIOUS_ONLINE_TRANSACTION"],
   "rulesEvaluated": 4,
   "evaluationTimeMs": 2,
-  "timestamp": "2026-09-15T14:30:01Z"
+  "screenedAt": "2026-09-15T14:30:01Z"
 }
 ```
 

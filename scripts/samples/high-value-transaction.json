@@ -5,6 +5,6 @@
   "currency": "EUR",
   "originCountry": "SE",
   "destinationCountry": "DE",
-  "channel": "ONLINE",
+  "channel": "BRANCH",
   "timestamp": "2024-01-15T11:00:00Z"
 }
