@@ -75,6 +75,10 @@ public class ScreeningService {
                     + "Verify rule configuration in application.yml.");
         }
 
+        // Sequential evaluation is sufficient for the current in-memory rules.
+        // If rules become expensive (external API calls, ML model inference),
+        // switch to parallelStream() or CompletableFuture for concurrent evaluation.
+        // Rules are stateless singletons, so parallel execution is safe.
         List<String> matchedRules = enabledRules.stream()
                 .filter(rule -> evaluateSafely(rule, context))
                 .map(Rule::getRuleId)
